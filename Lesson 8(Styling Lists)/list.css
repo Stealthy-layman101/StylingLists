@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 5%;
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+}
+
+ul{
+    list-style-type:georgian;
+/*     list-style-image: url('../Images/Checkmark.jpg') */
+    list-style:square;
+}
+
+ul li:nth-child(1){
+    color: red;
+}
+
+ol li:nth-child(3){
+    color: blue;
+}
+
+ol li:nth-child(odd){
+    color: blueviolet;
+}
+
+ul ::marker{
+    content: "20 Naira >>";
+}
+
+li{
+    margin-left: 5rem;
+}
+
+
+
+
+

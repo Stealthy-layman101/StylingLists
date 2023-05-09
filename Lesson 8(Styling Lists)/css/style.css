@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 5% 10%; /*setting padding to 5% on top and left then 10% on bottom and right*/
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+/*styling the ordered list*/
+ol{
+    list-style-type: upper-alpha; 
+    /*list-style-type: disc*/ /*giving our ordered list bullet points*/
+    padding: 0%;
+}
+
+ul{
+   /*  list-style-type: square; */ /* setting the bullet points to square */
+    text-align: center; /*center the text of the list*/
+    list-style-position: outside;
+    color: blue; /*change the color of all list items*/
+    line-height: 1.6; /*spacing between the lines*/
+    list-style-image: url('../Images/Checkmark.jpg');  /*add image to bullet point*/
+   /* list-style: square inside; */ /* set the bullets to squares and shift the nullets closer to the list item*/
+}
+
+/*change the color of the second list in the unordered list item*/
+ul li:nth-child(2){
+    color: rebeccapurple;
+}
+
+/*change the color of the odd numbers lists in the unordered list item*/
+ul li:nth-child(odd){
+    color: red;
+}
+
+/*marker is a pseudo element, all pseudo elements start with two columns*/
+/* for unordered list only */
+/* ul ::marker {
+    color: black; 
+    font-family: fantasy; 
+    font-size: 1em;
+    content: "Only $5 >>  "; /*adding content to the marker*/
+    /* content can have icons too 
+
+} */
+
+
+
